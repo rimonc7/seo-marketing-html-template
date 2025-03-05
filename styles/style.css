@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: linear-gradient(to right, #d7f6e6, #dfdeffd1);
+  border-bottom: 1px solid white;
+}
+
+.menu {
+  font-weight: bold;
+  font-style: normal;
+  font-size: large;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: black;
+}
+
+.header button {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #614ce1;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+main {
+  background: linear-gradient(to right, #d7f6e6, #dfdeffd1);
+  padding-top: 80px;
+}
+
+main h2{
+    font-size: 70px;
+    text-align: center;
+}
+
+.text-decor{
+    color: #614CE1;
+}
+
+.design-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.design-box h3{
+ margin-left: 5px;
+}
+
+.design-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 30px;
+    color: #614CE1;
+    margin-right: 20px;
+}
+
+.button-primary {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #614ce1;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+.button-outline {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid #614ce1;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #614CE1;
+  }
+
+  .button-outline:hover{
+    background-color: #614ce1;
+    color: white;
+  }
+
+  .btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+  }
